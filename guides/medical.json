@@ -1,0 +1,18 @@
+[
+  {
+    "heading": "Treating Wounds",
+    "body": "All wounds must be cleaned and bandaged promptly to prevent infection. Disinfect using whiskey, disinfectant spray, or sterilized bandages. Change bandages regularly — dirty bandages increase infection risk significantly. Check your health panel frequently and treat wounds before they become infected."
+  },
+  {
+    "heading": "Infection and Illness",
+    "body": "Zombie scratches carry a small infection risk; bites are nearly always fatal. Queasy or nauseous moodles appearing shortly after a wound may indicate zombie infection — this is distinct from food poisoning. General wound infection can be treated with antibiotics found in pharmacies and hospitals. There is no cure for the zombie virus."
+  },
+  {
+    "heading": "Fractures and Deep Wounds",
+    "body": "Fractures occur from falls, vehicle crashes, or heavy impacts. An improvised splint stabilises the break but does not fully heal it — rest is required over several in-game days. Deep wounds may need sutures to stop persistent bleeding. The First Aid skill reduces treatment time and improves recovery rate. High First Aid also reduces the infection risk from zombie attacks."
+  },
+  {
+    "heading": "Field Medicine",
+    "body": "Always carry at least one bandage and a disinfectant in your bag before leaving base. Sheet rags are a free emergency substitute for bandages — always tear spare sheets when you find them in bedrooms. Herbal poultices made from plantain can supplement medical supplies when running low. Never venture far from base without basic medical supplies — a single untreated wound can be fatal."
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "id": "base.vegetablesoup",
+    "name": "Vegetable Soup",
+    "category": "cooking",
+    "skill_required": { "skill": "cooking", "level": 1 },
+    "ingredients": [
+      { "item_id": "Base.WaterBottle", "name": "Water Bottle", "count": 1 },
+      { "item_id": "Base.Cabbage",     "name": "Cabbage",      "count": 1 },
+      { "item_id": "Base.Carrot",      "name": "Carrot",       "count": 2 },
+      { "item_id": "Base.Potato",      "name": "Potato",       "count": 1 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.Pot", "name": "Cooking Pot" }
+    ],
+    "crafting_chain": [],
+    "notes": "Requires a heat source — campfire, oven, or BBQ. Provides good nutrition and a small morale boost."
+  },
+  {
+    "id": "base.vegetablestew",
+    "name": "Vegetable Stew",
+    "category": "cooking",
+    "skill_required": { "skill": "cooking", "level": 2 },
+    "ingredients": [
+      { "item_id": "Base.WaterBottle", "name": "Water Bottle", "count": 1 },
+      { "item_id": "Base.Potato",      "name": "Potato",       "count": 2 },
+      { "item_id": "Base.Carrot",      "name": "Carrot",       "count": 1 },
+      { "item_id": "Base.Onion",       "name": "Onion",        "count": 1 },
+      { "item_id": "Base.FreshMeat",   "name": "Fresh Meat",   "count": 1 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.Pot", "name": "Cooking Pot" }
+    ],
+    "crafting_chain": [],
+    "notes": "Hearty stew that restores significant hunger and provides a morale boost. Most efficient use of ingredients."
+  },
+  {
+    "id": "base.roastedmeat",
+    "name": "Roasted Meat",
+    "category": "cooking",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.FreshMeat", "name": "Fresh Meat", "count": 1 }
+    ],
+    "tools_required": [],
+    "crafting_chain": [],
+    "notes": "Cook directly on a campfire, BBQ, or oven surface. No tools required. Always cook meat to avoid food poisoning."
+  },
+  {
+    "id": "base.friedegg",
+    "name": "Fried Egg",
+    "category": "cooking",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.Egg", "name": "Egg", "count": 1 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.FryingPan", "name": "Frying Pan" }
+    ],
+    "crafting_chain": [],
+    "notes": "Quick meal. Eggs found in kitchens, farm buildings, and bird nests while foraging."
+  },
+  {
+    "id": "base.cookedmushrooms",
+    "name": "Cooked Mushrooms",
+    "category": "cooking",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.Mushroom", "name": "Mushroom", "count": 3 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.FryingPan", "name": "Frying Pan" }
+    ],
+    "crafting_chain": [],
+    "notes": "Only use edible mushrooms. Foraging skill level 3+ allows safe identification. Unknown mushrooms may cause food poisoning."
+  },
+  {
+    "id": "base.wildberrysalad",
+    "name": "Wild Berry Salad",
+    "category": "cooking",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.WildBerry", "name": "Wild Berries", "count": 5 },
+      { "item_id": "Base.Bowl",      "name": "Bowl",         "count": 1 }
+    ],
+    "tools_required": [],
+    "crafting_chain": [],
+    "notes": "Light meal. Wild berries are foraged. Foraging skill reduces chance of accidentally picking poisonous varieties."
+  },
+  {
+    "id": "base.pancakes",
+    "name": "Pancakes",
+    "category": "cooking",
+    "skill_required": { "skill": "cooking", "level": 2 },
+    "ingredients": [
+      { "item_id": "Base.Flour",  "name": "Flour",  "count": 1 },
+      { "item_id": "Base.Egg",    "name": "Egg",    "count": 1 },
+      { "item_id": "Base.Milk",   "name": "Milk",   "count": 1 },
+      { "item_id": "Base.Butter", "name": "Butter", "count": 1 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.FryingPan", "name": "Frying Pan" }
+    ],
+    "crafting_chain": [],
+    "notes": "Provides a good morale boost. Dairy items spoil quickly — use when fresh or keep refrigerated."
+  },
+  {
+    "id": "base.bakedpotato",
+    "name": "Baked Potato",
+    "category": "cooking",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.Potato", "name": "Potato", "count": 1 }
+    ],
+    "tools_required": [],
+    "crafting_chain": [],
+    "notes": "Place directly in campfire embers or on oven rack. Simple, filling meal requiring no tools."
+  },
+  {
+    "id": "base.roastedcorn",
+    "name": "Roasted Corn",
+    "category": "cooking",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.Corn", "name": "Corn", "count": 1 }
+    ],
+    "tools_required": [],
+    "crafting_chain": [],
+    "notes": "Corn can be farmed or found in grocery stores and farmhouses. Place directly on a heat source."
+  },
+  {
+    "id": "base.fishstew",
+    "name": "Fish Stew",
+    "category": "cooking",
+    "skill_required": { "skill": "cooking", "level": 3 },
+    "ingredients": [
+      { "item_id": "Base.FreshFish",   "name": "Fresh Fish",   "count": 2 },
+      { "item_id": "Base.WaterBottle", "name": "Water Bottle", "count": 1 },
+      { "item_id": "Base.Potato",      "name": "Potato",       "count": 1 },
+      { "item_id": "Base.Salt",        "name": "Salt",         "count": 1 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.Pot", "name": "Cooking Pot" }
+    ],
+    "crafting_chain": [],
+    "notes": "Requires fishing skill to catch fresh fish. Restores hunger efficiently and provides an endurance bonus."
+  }
+]

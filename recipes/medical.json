@@ -1,0 +1,72 @@
+[
+  {
+    "id": "base.sterilizedbandage",
+    "name": "Sterilized Bandage",
+    "category": "medical",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.Bandage",           "name": "Bandage",            "count": 1 },
+      { "item_id": "Base.DisinfectantSpray", "name": "Disinfectant Spray", "count": 1 }
+    ],
+    "tools_required": [],
+    "crafting_chain": [],
+    "notes": "Always sterilize bandages before applying in the field to prevent wound infection. Sterilized bandages heal faster than plain ones."
+  },
+  {
+    "id": "base.ragsfromsheet",
+    "name": "Ripped Sheets",
+    "category": "medical",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.Sheet", "name": "Sheet", "count": 1 }
+    ],
+    "tools_required": [],
+    "crafting_chain": [],
+    "notes": "Produces 4 Rags from one sheet. Sheets found in bedrooms and linen cupboards. Rags are used as emergency bandages, torch fuel, and in crafting."
+  },
+  {
+    "id": "base.herbalpoultice",
+    "name": "Herbal Poultice",
+    "category": "medical",
+    "skill_required": { "skill": "foraging", "level": 2 },
+    "ingredients": [
+      { "item_id": "Base.Plantain", "name": "Plantain Herb", "count": 2 },
+      { "item_id": "Base.Rags",     "name": "Rags",          "count": 1 }
+    ],
+    "tools_required": [],
+    "crafting_chain": [
+      { "produces": "Base.Rags", "recipe_id": "base.ragsfromsheet" }
+    ],
+    "notes": "Reduces infection chance and speeds wound healing. Plantain is foraged in grassy areas and roadsides. A good supplement when medical supplies run low."
+  },
+  {
+    "id": "base.improvisedsplint",
+    "name": "Improvised Splint",
+    "category": "medical",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.TreeBranch", "name": "Tree Branch", "count": 2 },
+      { "item_id": "Base.Rags",       "name": "Rags",        "count": 2 }
+    ],
+    "tools_required": [],
+    "crafting_chain": [
+      { "produces": "Base.Rags", "recipe_id": "base.ragsfromsheet" }
+    ],
+    "notes": "Stabilises fractures. Without treatment, fractures cause ongoing pain and reduce action effectiveness. Rest is required for full recovery even with a splint."
+  },
+  {
+    "id": "base.disinfectedrag",
+    "name": "Disinfected Rag",
+    "category": "medical",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.Rags",    "name": "Rags",    "count": 1 },
+      { "item_id": "Base.Whiskey", "name": "Whiskey", "count": 1 }
+    ],
+    "tools_required": [],
+    "crafting_chain": [
+      { "produces": "Base.Rags", "recipe_id": "base.ragsfromsheet" }
+    ],
+    "notes": "Emergency alternative to sterilized bandages when disinfectant spray is unavailable. Whiskey is found in bars, liquor stores, and kitchens."
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "id": "base.woodenwallframe",
+    "name": "Wooden Wall Frame",
+    "category": "construction",
+    "skill_required": { "skill": "carpentry", "level": 1 },
+    "ingredients": [
+      { "item_id": "Base.Plank", "name": "Plank", "count": 4 },
+      { "item_id": "Base.Nails", "name": "Nails", "count": 4 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.Hammer", "name": "Hammer" }
+    ],
+    "crafting_chain": [],
+    "notes": "Foundation of base construction. Place first, then upgrade to a full wall on top."
+  },
+  {
+    "id": "base.woodenwall",
+    "name": "Wooden Wall",
+    "category": "construction",
+    "skill_required": { "skill": "carpentry", "level": 2 },
+    "ingredients": [
+      { "item_id": "Base.Plank", "name": "Plank", "count": 5 },
+      { "item_id": "Base.Nails", "name": "Nails", "count": 5 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.Hammer", "name": "Hammer" },
+      { "item_id": "Base.Saw",    "name": "Saw"    }
+    ],
+    "crafting_chain": [],
+    "notes": "Place on top of a Wooden Wall Frame. Provides full coverage against zombies and weather."
+  },
+  {
+    "id": "base.woodenfloor",
+    "name": "Wooden Floor",
+    "category": "construction",
+    "skill_required": { "skill": "carpentry", "level": 1 },
+    "ingredients": [
+      { "item_id": "Base.Plank", "name": "Plank", "count": 4 },
+      { "item_id": "Base.Nails", "name": "Nails", "count": 4 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.Hammer", "name": "Hammer" },
+      { "item_id": "Base.Saw",    "name": "Saw"    }
+    ],
+    "crafting_chain": [],
+    "notes": "Used to build second-floor structures or cover dirt and grass for a cleaner base interior."
+  },
+  {
+    "id": "base.woodendoorframe",
+    "name": "Wooden Door Frame",
+    "category": "construction",
+    "skill_required": { "skill": "carpentry", "level": 2 },
+    "ingredients": [
+      { "item_id": "Base.Plank", "name": "Plank", "count": 6 },
+      { "item_id": "Base.Nails", "name": "Nails", "count": 6 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.Hammer", "name": "Hammer" },
+      { "item_id": "Base.Saw",    "name": "Saw"    }
+    ],
+    "crafting_chain": [],
+    "notes": "Required before placing a wooden door. Build in a gap in your wall line."
+  },
+  {
+    "id": "base.woodendoor",
+    "name": "Wooden Door",
+    "category": "construction",
+    "skill_required": { "skill": "carpentry", "level": 3 },
+    "ingredients": [
+      { "item_id": "Base.Plank", "name": "Plank", "count": 8 },
+      { "item_id": "Base.Nails", "name": "Nails", "count": 8 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.Hammer",      "name": "Hammer"      },
+      { "item_id": "Base.Saw",         "name": "Saw"         },
+      { "item_id": "Base.Screwdriver", "name": "Screwdriver" }
+    ],
+    "crafting_chain": [],
+    "notes": "Requires a door frame first. Can be barricaded or fitted with a padlock for added security."
+  },
+  {
+    "id": "base.woodenfence",
+    "name": "Wooden Fence",
+    "category": "construction",
+    "skill_required": { "skill": "carpentry", "level": 1 },
+    "ingredients": [
+      { "item_id": "Base.Plank", "name": "Plank", "count": 3 },
+      { "item_id": "Base.Nails", "name": "Nails", "count": 2 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.Hammer", "name": "Hammer" }
+    ],
+    "crafting_chain": [],
+    "notes": "Slows but does not stop zombies. Useful for perimeters and funnelling zombie movement."
+  },
+  {
+    "id": "base.woodenstairs",
+    "name": "Wooden Stairs",
+    "category": "construction",
+    "skill_required": { "skill": "carpentry", "level": 4 },
+    "ingredients": [
+      { "item_id": "Base.Plank", "name": "Plank", "count": 12 },
+      { "item_id": "Base.Nails", "name": "Nails", "count": 8  }
+    ],
+    "tools_required": [
+      { "item_id": "Base.Hammer", "name": "Hammer" },
+      { "item_id": "Base.Saw",    "name": "Saw"    }
+    ],
+    "crafting_chain": [],
+    "notes": "High carpentry requirement. Essential for multi-storey bases. Stairs can be deconstructed from above as a defensive measure."
+  },
+  {
+    "id": "base.raincollector",
+    "name": "Rain Collector Barrel",
+    "category": "construction",
+    "skill_required": { "skill": "carpentry", "level": 3 },
+    "ingredients": [
+      { "item_id": "Base.Plank",      "name": "Plank",       "count": 4 },
+      { "item_id": "Base.Nails",      "name": "Nails",       "count": 4 },
+      { "item_id": "Base.GarbageBag", "name": "Garbage Bag", "count": 3 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.Hammer", "name": "Hammer" }
+    ],
+    "crafting_chain": [],
+    "notes": "Must be placed outdoors. Collects rainwater passively. Critical for long-term water supply after utilities fail."
+  },
+  {
+    "id": "base.woodcrate",
+    "name": "Wood Crate",
+    "category": "construction",
+    "skill_required": { "skill": "carpentry", "level": 2 },
+    "ingredients": [
+      { "item_id": "Base.Plank", "name": "Plank", "count": 6 },
+      { "item_id": "Base.Nails", "name": "Nails", "count": 4 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.Hammer", "name": "Hammer" },
+      { "item_id": "Base.Saw",    "name": "Saw"    }
+    ],
+    "crafting_chain": [],
+    "notes": "Provides 50-unit storage capacity. Stack multiples for organised base storage."
+  },
+  {
+    "id": "base.stonecampfire",
+    "name": "Stone Campfire",
+    "category": "construction",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.SmallStone", "name": "Small Stone", "count": 8 }
+    ],
+    "tools_required": [],
+    "crafting_chain": [],
+    "notes": "No skill required. Place outdoors or in an open area. Light with a lighter or matches. Produces smoke — avoid using near windows or in enclosed spaces."
+  }
+]

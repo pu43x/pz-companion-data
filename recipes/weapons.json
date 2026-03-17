@@ -1,0 +1,76 @@
+[
+  {
+    "id": "base.molotovcocktail",
+    "name": "Molotov Cocktail",
+    "category": "weapons",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.WineBottle", "name": "Wine Bottle", "count": 1 },
+      { "item_id": "Base.PetrolCan",  "name": "Petrol Can",  "count": 1 },
+      { "item_id": "Base.Rags",       "name": "Rags",        "count": 1 }
+    ],
+    "tools_required": [],
+    "crafting_chain": [
+      { "produces": "Base.Rags", "recipe_id": "base.ragsfromsheet" }
+    ],
+    "notes": "Effective against groups. Fire spreads to buildings — never use indoors. Carry only 1-2 at a time due to fire risk."
+  },
+  {
+    "id": "base.craftedspear",
+    "name": "Crafted Spear",
+    "category": "weapons",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.TreeBranch",  "name": "Tree Branch",  "count": 1 },
+      { "item_id": "Base.KitchenKnife","name": "Kitchen Knife","count": 1 }
+    ],
+    "tools_required": [],
+    "crafting_chain": [],
+    "notes": "The kitchen knife is consumed and bound to the branch. Low durability but keeps zombies at arm's reach. Good early-game weapon."
+  },
+  {
+    "id": "base.spikedbat",
+    "name": "Spiked Bat",
+    "category": "weapons",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.BaseballBat", "name": "Baseball Bat", "count": 1 },
+      { "item_id": "Base.Nails",       "name": "Nails",        "count": 6 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.Hammer", "name": "Hammer" }
+    ],
+    "crafting_chain": [],
+    "notes": "Significantly increases blunt damage and adds bleed chance. Baseball bats found in schools, sports stores, and residential garages."
+  },
+  {
+    "id": "base.stoneknife",
+    "name": "Stone Knife",
+    "category": "weapons",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.SmallStone", "name": "Small Stone", "count": 2 }
+    ],
+    "tools_required": [],
+    "crafting_chain": [],
+    "notes": "Primitive cutting tool. Low damage but useful for crafting a spear or as an emergency last-resort weapon. Stones found on roadsides and driveways."
+  },
+  {
+    "id": "base.littorch",
+    "name": "Lit Torch",
+    "category": "weapons",
+    "skill_required": null,
+    "ingredients": [
+      { "item_id": "Base.TreeBranch", "name": "Tree Branch", "count": 1 },
+      { "item_id": "Base.Rags",       "name": "Rags",        "count": 1 },
+      { "item_id": "Base.PetrolCan",  "name": "Petrol Can",  "count": 1 }
+    ],
+    "tools_required": [
+      { "item_id": "Base.Lighter", "name": "Lighter" }
+    ],
+    "crafting_chain": [
+      { "produces": "Base.Rags", "recipe_id": "base.ragsfromsheet" }
+    ],
+    "notes": "Provides light and can ignite zombies on hit. Short burn duration — carry spares on long night runs."
+  }
+]

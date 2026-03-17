@@ -1,0 +1,18 @@
+[
+  {
+    "heading": "Basic Cooking Principles",
+    "body": "Raw food can cause food poisoning and reduce your health over time. Always cook meat before eating. Use a campfire, BBQ, kitchen oven, or microwave as your heat source. Cooking skill reduces the chance of burning food and unlocks more complex, nutritious recipes."
+  },
+  {
+    "heading": "Heat Sources",
+    "body": "Campfires require wood fuel and must be lit with a lighter or matches. BBQs use propane and are commonly found in backyards. Kitchen ovens require the building to have active power. Campfires produce smoke — avoid using in enclosed areas or near windows to limit noise and visibility to zombies."
+  },
+  {
+    "heading": "Food Preservation",
+    "body": "Fresh food spoils over time, especially in warm weather. Store perishables in a refrigerator while power lasts. Once power fails, cook or preserve food quickly. Salt can preserve meat for extended storage. Canned goods last indefinitely and should be stockpiled as a reliable long-term backup food source."
+  },
+  {
+    "heading": "Nutrition and Morale",
+    "body": "Well-cooked meals restore more hunger and provide morale bonuses compared to eating raw or cold food. Boredom and low morale reduce all skill gain rates. Eating a variety of foods rather than the same meal repeatedly maintains morale. Stews and soups are the most efficient use of ingredients for restoring multiple stats at once."
+  }
+]

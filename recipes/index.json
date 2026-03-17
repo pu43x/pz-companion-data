@@ -1,0 +1,8 @@
+{
+  "files": [
+    "cooking.json",
+    "construction.json",
+    "weapons.json",
+    "medical.json"
+  ]
+}

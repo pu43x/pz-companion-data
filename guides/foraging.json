@@ -1,0 +1,18 @@
+[
+  {
+    "heading": "How Foraging Works",
+    "body": "Foraging is activated through your character menu by entering Foraging mode. Your character searches the surrounding area as you walk slowly. Foraging skill determines what items you can find and whether you can safely identify what you have found. Low skill players may encounter mushrooms or berries they cannot eat safely."
+  },
+  {
+    "heading": "What You Can Find",
+    "body": "Foraging yields wild berries, mushrooms, medicinal herbs such as plantain and comfrey, bird eggs, insects, small stones, and tree branches. Some items only appear in specific zones — forests, open grassland, or urban areas each have unique yields. Night foraging is significantly less effective. Light levels and season affect what is available and in what quantity."
+  },
+  {
+    "heading": "Safe Foraging Practices",
+    "body": "Never eat unidentified mushrooms at low foraging skill — they can cause severe food poisoning that is potentially fatal without medical treatment. Berries marked as unknown should also be avoided. At foraging level 3 or higher, most common item types can be safely identified. Combine foraging with fishing and farming to build a sustainable long-term food supply independent of looting."
+  },
+  {
+    "heading": "Medicinal Herbs",
+    "body": "Plantain and comfrey are the most useful foraged herbs. Plantain grows in grassy fields and along roadsides. Comfrey is found near water sources and in wooded areas. Both are used in herbal poultices to help wounds heal and reduce infection risk. At higher foraging skill, rarer herbs become available including natural pain reducers and anti-parasitic plants that can substitute for pharmaceutical supplies."
+  }
+]
